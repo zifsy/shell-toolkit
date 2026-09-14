@@ -26,7 +26,7 @@
 
 ```bash
 # 直接执行即可自动注册
-bash server_dashboard.sh
+curl -sSL https://raw.githubusercontent.com/zifsy/shell-toolkit/refs/heads/main/server_dashboard.sh -o server_dashboard.sh && chmod +x server_dashboard.sh && ./server_dashboard.sh
 ```
 
 ### 手动运行
